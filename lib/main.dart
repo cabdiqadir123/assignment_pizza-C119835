@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  int k=1;
   runApp(
     MaterialApp(
       home: Scaffold(
