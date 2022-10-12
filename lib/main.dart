@@ -6,7 +6,6 @@ void main() {
   int k=1;
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text("Android ATC Pizza Place"),
@@ -18,7 +17,7 @@ void main() {
               Card(
                 margin: EdgeInsets.all(10),
                 color: Colors.deepOrangeAccent,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(13)),
                 child: Row(
                   children: [
                     Image(
